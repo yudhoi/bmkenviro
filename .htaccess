@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /bmkenviro/
+
+# Redirect all requests to the dist folder silently
+RewriteCond %{REQUEST_URI} !^/bmkenviro/dist/
+RewriteRule ^(.*)$ dist/$1 [L]
+</IfModule>
