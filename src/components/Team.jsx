@@ -15,10 +15,10 @@ const Team = () => {
   const management = [
     { name: 'Dr. Triyono, ST, M.Sc.', role: 'Direktur', img: 'https://ui-avatars.com/api/?name=Triyono&background=FBBF24&color=fff&size=200' },
     { name: 'Dewayanto, S.Si', role: 'Direktur Marketing', img: 'https://ui-avatars.com/api/?name=Dewayanto&background=FBBF24&color=fff&size=200' },
-    { name: 'Reno Fandelika', role: 'Kepala Kantor', img: 'https://ui-avatars.com/api/?name=Reno+Fandelika&background=FBBF24&color=fff&size=200' },
-    { 
-      name: 'Yudho Indardjo, S.Si., M.Ling', 
-      role: 'Manajer Operasional', 
+    { name: 'Reno Fandelika, S.IP., MBA.', role: 'Kepala Kantor', img: 'https://ui-avatars.com/api/?name=Reno+Fandelika&background=FBBF24&color=fff&size=200' },
+    {
+      name: 'Yudho Indardjo, S.Si., M.Ling',
+      role: 'Manajer Operasional',
       img: '/bmkenviro/yudho.jpg',
       technicalInfo: 'Keahlian Eksekusi Lapangan, Rekayasa Lingkungan & Manajemen Data Spasial (GIS)'
     },
@@ -30,9 +30,9 @@ const Team = () => {
       {/* Profile Image Wrapper */}
       <div className="relative mb-4 p-1 rounded-full bg-white transition-all duration-300 group-hover:shadow-xl group-hover:shadow-brand-green/20">
         <div className="w-32 h-32 md:w-40 md:h-40 rounded-full border-2 border-brand-green overflow-hidden relative">
-          <img 
-            src={person.img} 
-            alt={person.name} 
+          <img
+            src={person.img}
+            alt={person.name}
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
           {/* Overlay for technical role if present */}
@@ -48,7 +48,7 @@ const Team = () => {
           )}
         </div>
       </div>
-      
+
       {/* Name and Role */}
       <h4 className="text-lg font-semibold text-slate-800 text-center mb-1">
         {person.name}
@@ -62,7 +62,7 @@ const Team = () => {
   return (
     <section id="tim" className="py-24 bg-white relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 tracking-tight">
@@ -87,7 +87,7 @@ const Team = () => {
           <div className="relative">
             {/* Connecting visual line (optional decorative element) */}
             <div className="hidden md:block absolute -top-12 left-1/2 -translate-x-1/2 w-px h-8 bg-gradient-to-b from-brand-green/50 to-transparent"></div>
-            
+
             <div className="flex flex-wrap justify-center gap-8 md:gap-16">
               {commissioners.map((person, index) => (
                 <ProfileCard key={index} person={person} index={index} />
@@ -98,7 +98,7 @@ const Team = () => {
           {/* Tier 3: Management */}
           <div className="relative">
             <div className="hidden md:block absolute -top-12 left-1/2 -translate-x-1/2 w-px h-8 bg-gradient-to-b from-brand-green/50 to-transparent"></div>
-            
+
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
               {management.map((person, index) => (
                 <ProfileCard key={index} person={person} index={index} />
