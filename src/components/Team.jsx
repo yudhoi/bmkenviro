@@ -19,7 +19,7 @@ const Team = () => {
     {
       name: 'Yudho Indardjo, S.Si., M.Ling',
       role: 'Manajer Operasional',
-      img: '/bmkenviro/yudho.jpg',
+      img: '/yudho.jpg',
       technicalInfo: 'Keahlian Eksekusi Lapangan, Rekayasa Lingkungan & Manajemen Data Spasial (GIS)'
     },
   ];

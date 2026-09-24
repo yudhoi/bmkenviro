@@ -49,7 +49,7 @@ const About = () => {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/5] transform lg:-rotate-2 transition-transform duration-500 hover:rotate-0">
               <div className="absolute inset-0 bg-brand-green/10 mix-blend-overlay z-10"></div>
               <img 
-                src="/bmkenviro/gedung.jpg" 
+                src="/gedung.jpg" 
                 alt="Gedung Pascasarjana" 
                 className="object-cover w-full h-full"
               />
