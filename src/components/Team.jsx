@@ -15,7 +15,7 @@ const Team = () => {
   const management = [
     { name: 'Dr. Triyono, ST, M.Sc.', role: 'Direktur', img: '/tri.jpg' },
     { name: 'Dewayanto, S.Si', role: 'Direktur Marketing', img: '/dewayanto.jpg' },
-    { name: 'Reno Fandelika, S.IP., MBA.', role: 'Kepala Kantor', img: 'https://ui-avatars.com/api/?name=Reno+Fandelika&background=FBBF24&color=fff&size=200' },
+    { name: 'Reno Fandelika, S.IP., MBA.', role: 'Kepala Kantor', img: '/reno.jpg' },
     {
       name: 'Yudho Indardjo, S.Si., M.Ling',
       role: 'Manajer Operasional',
