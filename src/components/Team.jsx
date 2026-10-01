@@ -3,7 +3,7 @@ import { Map, Leaf, HardHat } from 'lucide-react';
 const Team = () => {
   const founders = [
     { name: 'GKBRAy Paku Alam X', role: 'Founder', img: '/gkbray.jpg' },
-    { name: 'Prof. Dr. Ir. Chafid Fandeli', role: 'Founder', img: '/chafid.jpg' },
+    { name: 'Prof. Dr. Ir. Chafid Fandeli', role: 'Founder', img: '/chafid_baru.jpg' },
   ];
 
   const commissioners = [
@@ -13,7 +13,7 @@ const Team = () => {
   ];
 
   const management = [
-    { name: 'Dr. Triyono, ST, M.Sc.', role: 'Direktur', img: '/tri.jpg' },
+    { name: 'Dr. Triyono, ST, M.Sc.', role: 'Direktur', img: '/tri_baru.jpg' },
     { name: 'Dewayanto, S.Si', role: 'Direktur Marketing', img: '/dewayanto.jpg' },
     { name: 'Reno Fandelika, S.IP., MBA.', role: 'Kepala Kantor', img: '/reno.jpg' },
     {
