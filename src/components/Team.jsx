@@ -2,19 +2,19 @@ import { Map, Leaf, HardHat } from 'lucide-react';
 
 const Team = () => {
   const founders = [
-    { name: 'GKBRAy Adipati Paku', role: 'Founder', img: 'https://ui-avatars.com/api/?name=GKBRAy+Adipati+Paku&background=10B981&color=fff&size=200' },
-    { name: 'Prof. Dr. Ir. Chafid Fandeli', role: 'Founder', img: 'https://ui-avatars.com/api/?name=Chafid+Fandeli&background=10B981&color=fff&size=200' },
+    { name: 'GKBRAy Paku Alam X', role: 'Founder', img: '/gkbray.jpg' },
+    { name: 'Prof. Dr. Ir. Chafid Fandeli', role: 'Founder', img: '/chafid.jpg' },
   ];
 
   const commissioners = [
-    { name: 'Prof. Dr. Suratman, M.Sc.', role: 'Dewan Komisaris', img: 'https://ui-avatars.com/api/?name=Suratman&background=064E3B&color=fff&size=200' },
-    { name: 'Ir. Sri Yuniarti, M.Par.', role: 'Dewan Komisaris', img: 'https://ui-avatars.com/api/?name=Sri+Yuniarti&background=064E3B&color=fff&size=200' },
-    { name: 'B.P.H. Kusumo Bimantoro (Suryo)', role: 'Dewan Komisaris', img: 'https://ui-avatars.com/api/?name=Kusumo+Bimantoro&background=064E3B&color=fff&size=200' },
+    { name: 'Prof. Dr. Suratman, M.Sc.', role: 'Dewan Komisaris', img: '/suratman.jpg' },
+    { name: 'Ir. Sri Yuniarti, M.Par.', role: 'Dewan Komisaris', img: '/sri_yuniarti.jpg' },
+    { name: 'B.P.H. Kusumo Bimantoro', role: 'Dewan Komisaris', img: '/suryo.jpg' },
   ];
 
   const management = [
-    { name: 'Dr. Triyono, ST, M.Sc.', role: 'Direktur', img: 'https://ui-avatars.com/api/?name=Triyono&background=FBBF24&color=fff&size=200' },
-    { name: 'Dewayanto, S.Si', role: 'Direktur Marketing', img: 'https://ui-avatars.com/api/?name=Dewayanto&background=FBBF24&color=fff&size=200' },
+    { name: 'Dr. Triyono, ST, M.Sc.', role: 'Direktur', img: '/tri.jpg' },
+    { name: 'Dewayanto, S.Si', role: 'Direktur Marketing', img: '/dewayanto.jpg' },
     { name: 'Reno Fandelika, S.IP., MBA.', role: 'Kepala Kantor', img: 'https://ui-avatars.com/api/?name=Reno+Fandelika&background=FBBF24&color=fff&size=200' },
     {
       name: 'Yudho Indardjo, S.Si., M.Ling',
