@@ -14,11 +14,11 @@ const Team = () => {
 
   const management = [
     { name: 'Dr. Triyono, ST, M.Sc.', role: 'Direktur', img: '/tri_baru.jpg' },
-    { name: 'Dewayanto, S.Si', role: 'Direktur Marketing', img: '/dewayanto.jpg' },
+    { name: 'Dewayanto, S.Si', role: 'Kepala Pemasaran', img: '/dewayanto.jpg' },
     { name: 'Reno Fandelika, S.IP., MBA.', role: 'Kepala Kantor', img: '/reno.jpg' },
     {
       name: 'Yudho Indardjo, S.Si., M.Ling',
-      role: 'Manajer Operasional',
+      role: 'Kepala Operasional',
       img: '/yudho.jpg',
       technicalInfo: 'Keahlian Eksekusi Lapangan, Rekayasa Lingkungan & Manajemen Data Spasial (GIS)'
     },
